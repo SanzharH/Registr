@@ -1,0 +1,12 @@
+﻿.dotnet/
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/*.db
+**/*.db-shm
+**/*.db-wal
+.vscode/
+
+run-logs/
+test-run.cmd

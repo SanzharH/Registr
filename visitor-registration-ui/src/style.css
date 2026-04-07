@@ -1,0 +1,285 @@
+﻿:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #10233f;
+  background:
+    radial-gradient(circle at top right, rgba(244, 193, 74, 0.25), transparent 28%),
+    linear-gradient(160deg, #f4f7fb 0%, #dfe9f7 100%);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+#app {
+  width: 100%;
+}
+
+.page-shell {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+
+.hero h1 {
+  margin: 8px 0 12px;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #aa4b17;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.hero-text,
+.section-heading p,
+.role-card small,
+.empty-state,
+.empty-table {
+  color: #50627f;
+}
+
+.role-card,
+.card,
+.alert {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(16, 35, 63, 0.08);
+  border-radius: 24px;
+  box-shadow: 0 14px 40px rgba(31, 58, 104, 0.12);
+}
+
+.role-card,
+.card {
+  padding: 24px;
+}
+
+.role-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.role-card span {
+  font-weight: 700;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.section-heading h2 {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+}
+
+.section-heading p {
+  margin: 0;
+}
+
+.inline-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.form-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+}
+
+input,
+select {
+  width: 100%;
+  border: 1px solid #cad4e3;
+  border-radius: 14px;
+  padding: 13px 14px;
+  background: #fff;
+  color: #10233f;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid rgba(197, 93, 32, 0.22);
+  border-color: #c55d20;
+}
+
+.primary-button,
+.secondary-button,
+.danger-button,
+.link-button {
+  border-radius: 14px;
+  padding: 12px 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.primary-button:hover,
+.secondary-button:hover,
+.danger-button:hover,
+.link-button:hover {
+  transform: translateY(-1px);
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #c55d20, #ef9f34);
+  color: white;
+  box-shadow: 0 10px 24px rgba(197, 93, 32, 0.28);
+}
+
+.secondary-button,
+.link-button {
+  background: #eef3fa;
+  color: #163050;
+}
+
+.danger-button {
+  background: #b83b2f;
+  color: white;
+}
+
+.primary-button:disabled,
+.secondary-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.alerts {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 14px 18px;
+}
+
+.alert.success {
+  border-left: 6px solid #2f8f4e;
+}
+
+.alert.error {
+  border-left: 6px solid #b83b2f;
+}
+
+.search-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  margin: 18px 0 14px;
+}
+
+.hint-list {
+  display: grid;
+  gap: 10px;
+}
+
+.hint-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 13px 14px;
+  border-radius: 14px;
+  background: #f7f9fd;
+  color: #163050;
+}
+
+.hint-item strong {
+  text-align: left;
+}
+
+.hint-item span {
+  color: #5d6e89;
+}
+
+.visitors-card {
+  overflow: hidden;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 960px;
+}
+
+th,
+td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e6ebf3;
+}
+
+th {
+  color: #4d607d;
+  font-size: 0.92rem;
+}
+
+.empty-table {
+  text-align: center;
+  padding: 22px;
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .inline-heading,
+  .search-row {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}
