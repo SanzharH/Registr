@@ -1,0 +1,42 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-1017649d66d1259f.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-65039ca85f4d85c1.js",
+      "static/chunks/app/_not-found/page-89ae3afa2e837910.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-1017649d66d1259f.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-65039ca85f4d85c1.js",
+      "static/css/94440f4219546745.css",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/layout-de06960d0b78f204.js"
+    ],
+    "/booking/[concertId]/[showId]/page": [
+      "static/chunks/webpack-1017649d66d1259f.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-65039ca85f4d85c1.js",
+      "static/chunks/app/booking/[concertId]/[showId]/page-46f4b9e41189f469.js"
+    ],
+    "/tickets/page": [
+      "static/chunks/webpack-1017649d66d1259f.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-65039ca85f4d85c1.js",
+      "static/chunks/app/tickets/page-96472432c0579b6a.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-1017649d66d1259f.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-98a0bdaa30757bda.js",
+      "static/chunks/main-app-65039ca85f4d85c1.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/page-db04f5e333cb2017.js"
+    ]
+  }
+}

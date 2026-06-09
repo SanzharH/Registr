@@ -1,0 +1,6 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/booking/[concertId]/[showId]/page": "/booking/[concertId]/[showId]",
+  "/tickets/page": "/tickets",
+  "/page": "/"
+}

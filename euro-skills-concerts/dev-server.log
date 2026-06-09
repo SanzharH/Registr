@@ -1,0 +1,32 @@
+
+> euro-skills-concerts@0.1.0 dev
+> next dev -p 3001
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3001
+   - Network:      http://26.31.227.115:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 8s (616 modules)
+ GET / 200 in 8967ms
+ GET / 200 in 95ms
+ GET / 200 in 102ms
+ ○ Compiling /booking/[concertId]/[showId] ...
+ ✓ Compiled /booking/[concertId]/[showId] in 898ms (615 modules)
+ GET /booking/2/4 200 in 2224ms
+ ✓ Compiled in 250ms (615 modules)
+ GET / 200 in 165ms
+ ✓ Compiled /tickets in 340ms (624 modules)
+ GET /tickets 200 in 444ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3s (971 modules)
+ GET /booking/2/4 500 in 4064ms
+ GET /booking/2/2 500 in 4065ms
+ GET /booking/4/3 500 in 4065ms
+ GET /booking/1/1 500 in 4066ms
+ GET /booking/3/5 500 in 4067ms
+ GET /booking/3/6 500 in 306ms
+ GET / 500 in 303ms
+ ✓ Compiled in 487ms (965 modules)
